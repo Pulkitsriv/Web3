@@ -1,0 +1,40 @@
+body {
+    background: yellow;
+    background: -webkit-linear-gradient(to right, #2c3e50, yellow);
+    background: linear-gradient(to right, #2c3e50, yellow);
+}
+
+header{
+    align-items:center;
+    height: 400px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("ban.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+img {
+    width: 50rem;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
